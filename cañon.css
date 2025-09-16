@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    background: #004d40;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    color: #00695c;
+    margin-top: 20px;
+}
+
+.padre {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hijo {
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.nieto {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background: #004d40;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

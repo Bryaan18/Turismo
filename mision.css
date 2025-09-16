@@ -1,0 +1,61 @@
+/* === ESTILO GENERAL === */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Fuente moderna y legible */
+    margin: 0;
+    padding: 0;
+    background: #f9fafc; /* Fondo claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* === CABECERA === */
+header {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* === TÍTULO PRINCIPAL === */
+h1 {
+    margin: 0;
+    padding: 40px 20px;
+    font-size: 3rem; /* Grande para resaltar */
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: linear-gradient(90deg, #023e8a, #0077b6, #0096c7); /* Azul institucional */
+    text-shadow: 0 0 8px rgba(0,0,0,0.4);
+    letter-spacing: 2px;
+}
+
+/* === CONTENEDOR PRINCIPAL === */
+.padre {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+/* === PÁRRAFO === */
+.padre p {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+/* === IMAGEN === */
+.padre img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.padre img:hover {
+    transform: scale(1.03); /* Pequeño zoom al pasar el mouse */
+    filter: brightness(1.05); /* Más luz para resaltar */
+}

@@ -1,0 +1,110 @@
+/* ======= ESTILOS GENERALES ======= */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f1;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ======= HEADER ======= */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #386641, #6a994e, #a68a64);
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+/* ======= CONTENEDOR PRINCIPAL ======= */
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+/* ======= FORMULARIO ======= */
+.formulario {
+  flex: 1 1 500px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin: 12px 0 6px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+form input:focus, form textarea:focus {
+  border-color: #6a994e;
+  outline: none;
+  box-shadow: 0 0 5px rgba(106,153,78,0.4);
+}
+
+form button {
+  width: 100%;
+  padding: 14px;
+  background: #386641;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #6a994e;
+}
+
+/* ======= INFO CONTACTO ======= */
+.info {
+  flex: 1 1 300px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.info h2 {
+  color: #386641;
+  margin-bottom: 15px;
+}
+
+.info p {
+  margin: 8px 0;
+  font-size: 1.05em;
+}
+
+/* ======= FOOTER ======= */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #bc6c25;
+  color: white;
+  font-size: 0.9em;
+}

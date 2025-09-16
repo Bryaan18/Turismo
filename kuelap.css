@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    background: #4a148c; /* morado profundo */
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Subtítulos */
+h2 {
+    color: #6a1b9a;
+    margin-top: 20px;
+}
+
+/* Contenedor principal */
+.padre {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hijo {
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.nieto {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background: #4a148c;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
